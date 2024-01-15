@@ -32,3 +32,33 @@ h4{
 .text-color{
   color: rgb(0, 106, 255);
 }
+
+.row{
+  background-color: rgba(0, 98, 255, 0.745);
+  color: white;
+  
+}
+.row-left{
+  display: inline-block;
+  width: 30%; 
+}
+
+.row-center{
+  display: inline-block;
+  width: 30%;
+}
+
+.row-right{
+  display: inline-block;
+  width: 30%;
+}
+
+.row-left, .row-center, .row-right {
+  line-height: 30px;
+}
+
+.sub-row {
+  background-color: rgba(0, 234, 255, 0.745);
+  color: rgb(0, 0, 0);
+
+}
