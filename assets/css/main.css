@@ -1,6 +1,6 @@
 body {
   width: 1100px;
-  height: 1000px;
+  height: 1300px;
   margin: 0;
   box-sizing: border-box;   
 }
@@ -15,6 +15,11 @@ header {
   background-color: rgb(20, 139, 251);
 }
 
+.logo{
+  padding-top: 20px;
+
+}
+
 
 .container{
   padding: 10px;
@@ -23,14 +28,21 @@ header {
 
 h1{
   font-size: 46px;
+  margin-top:0px;
+  margin-bottom: 0px;;
 }
 
 h4{
-  
+  color: grey;
+  margin-top: 0px;  
 }
 
 .text-color{
   color: rgb(0, 106, 255);
+}
+
+.emphasys {
+  background-color: yellow;
 }
 
 .row{
@@ -54,11 +66,36 @@ h4{
 }
 
 .row-left, .row-center, .row-right {
+  height: 30px;
   line-height: 30px;
+  
 }
 
-.sub-row {
-  background-color: rgba(0, 234, 255, 0.745);
+.first-row {
+  background-color: rgba(54, 195, 255, 0.745);
   color: rgb(0, 0, 0);
 
+}
+
+.second-row {
+
+}
+
+.third-row {
+  background-color: rgba(54, 195, 255, 0.745);
+  color: rgb(0, 0, 0);
+
+}
+
+.cover {
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.lorem{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-weight: 800;
+  font-size: 26px;;
 }
