@@ -20,7 +20,7 @@ header {
 
 }
 
-
+/* MAIN  */
 .container{
   padding: 10px;
   
@@ -47,9 +47,9 @@ h4{
 
 .row{
   background-color: rgba(0, 98, 255, 0.745);
-  color: white;
-  
+  color: white; 
 }
+
 .row-left{
   display: inline-block;
   width: 30%; 
@@ -65,28 +65,27 @@ h4{
   width: 30%;
 }
 
-.row-left, .row-center, .row-right {
-  height: 30px;
-  line-height: 30px;
-  
+.row-left, .row-center, .row-right { 
+  height: 30px; 
 }
 
 .first-row {
   background-color: rgba(54, 195, 255, 0.745);
   color: rgb(0, 0, 0);
-
+  padding: 15px;
 }
 
 .second-row {
-
+  padding: 15px;
 }
 
 .third-row {
   background-color: rgba(54, 195, 255, 0.745);
   color: rgb(0, 0, 0);
-
+  padding: 15px;
 }
 
+/* FOOTER  */
 .cover {
   position: relative;
   color: rgb(255, 255, 255);
